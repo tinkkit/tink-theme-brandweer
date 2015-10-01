@@ -6,29 +6,48 @@
 /**
  * Main
  */
-$primary:                                #00b3dc;
+$primary:                                    #219dc8;
 
 $logo:                                   "brandweer-logo.svg";
 
 $brand:                                  #d70044;
 $brand-light:                            #ff4662;
 
-$nav-top-bg-color:                       #333;
-$nav-aside-link-active-background-color: $brand-light;
-$nav-aside-link-hover-color:             $brand-light;
-$nav-aside-link-hover-background-color:  lighten($brand-light, 46%);
+
+/**
+ * Navigation
+ */
+$nav-top-bg-color:                           #333;
+$nav-aside-link-active-background-color: $primary;
+$nav-aside-link-hover-color:             $primary;
+$nav-aside-link-hover-background-color:  lighten($primary, 46%);
+
+$back-to-top-bgcolor:                        rgba($primary, .4);
+$back-to-top-hover-bgcolor:                  rgba($primary, .8);
+
 
 
 /**
  * Colors
  */
-$brand-success:                          #0b0;
+$brand-success:                              #0b0;
+
+$link-color:                                 $primary;
+$link-hover-color:                           lighten($link-color, 8%);
 
 
 /**
  * Code
  */
-$code-bg:                                lighten($brand, 60%);
+$code-color:                                 $primary;
+$code-bg:                                    lighten($primary, 51%);
+
+
+/**
+ * Focus
+ */
+$input-base-color:                           $primary;
+$input-border-focus:                         $primary;
 
 
 /**
@@ -42,12 +61,51 @@ $btn-primary-border:                     $primary;
 /**
  * Callouts
  */
-$callout-color:                          $primary;
+$callout-color:                              $primary;
+
+
+/**
+ * Datepicker
+ */
+$datepicker-btn-hover-color:                 $primary;
+$datepicker-btn-selected-bg-color:           $primary;
+$datepicker-btn-today-color:                 $primary;
+
+
+/**
+ * Hit-area-box
+ */
+$hit-area-checked-bgcolor:                   $primary;
+
+
+/**
+ * Interactive table
+ */
+$table-interactive-options-selected-bgcolor: lighten($primary, 45%);
+$table-interactive-options-dropzone-border:  $primary;
+
+
+/**
+ * Pagination
+ */
+$pagination-link-active-bg:                  $primary;
 
 
 /**
  * Upload
  */
-$upload-hover-background-color:          lighten($primary, 50%);
-$upload-border-color:                    $primary;
-$upload-bg-color-success:                lighten($brand-success, 54%);
+$upload-hover-background-color:              lighten($primary, 50%);
+$upload-border-color:                        $primary;
+$upload-bg-color-success:                    lighten($brand-success, 54%);
+
+
+/**
+ * Badges
+ */
+$badge-primary-bg:                           $primary !default;
+
+
+/**
+ * Labels
+ */
+$label-primary:                              $primary !default;

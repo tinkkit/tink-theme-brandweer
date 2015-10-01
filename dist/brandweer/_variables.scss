@@ -10,8 +10,25 @@ $primary:                                #00b3dc;
 
 $logo:                                   "digipolis-logo.svg";
 
+<<<<<<< HEAD
 $brand:                                  #ba2b45;
 $brand-light:                            #c7556a;
+=======
+$brand:                                      #ba2b45;
+$brand-light:                                #d4445e;
+
+
+/**
+ * Navigation
+ */
+$nav-top-bg-color:                           #333;
+$nav-aside-link-active-background-color: $primary;
+$nav-aside-link-hover-color:             $primary;
+$nav-aside-link-hover-background-color:  lighten($primary, 46%);
+
+$back-to-top-bgcolor:                        rgba($primary, .4);
+$back-to-top-hover-bgcolor:                  rgba($primary, .8);
+>>>>>>> Added extra variables.
 
 $nav-top-bg-color:                       #333;
 $nav-aside-link-active-background-color: $brand-light;
@@ -37,12 +54,46 @@ $code-bg:                                lighten($brand, 60%);
 $btn-primary-color:                      #fff;
 $btn-primary-bg:                         $primary;
 $btn-primary-border:                     $primary;
+<<<<<<< HEAD
+=======
 
 
 /**
  * Callouts
  */
+$callout-color:                              $primary;
+>>>>>>> Added extra variables.
+
+
+/**
+ * Datepicker
+ */
+<<<<<<< HEAD
 $callout-color:                          $primary;
+=======
+$datepicker-btn-hover-color:                 $primary;
+$datepicker-btn-selected-bg-color:           $primary;
+$datepicker-btn-today-color:                 $primary;
+
+
+/**
+ * Hit-area-box
+ */
+$hit-area-checked-bgcolor:                   $primary;
+
+
+/**
+ * Interactive table
+ */
+$table-interactive-options-selected-bgcolor: lighten($primary, 45%);
+$table-interactive-options-dropzone-border:  $primary;
+
+
+/**
+ * Pagination
+ */
+$pagination-link-active-bg:                  $primary;
+>>>>>>> Added extra variables.
 
 
 /**

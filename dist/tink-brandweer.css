@@ -27,6 +27,12 @@
  */
 /**
  * Callouts
+<<<<<<< HEAD
+=======
+ */
+/**
+ * Datepicker
+>>>>>>> Added extra variables.
  */
 /**
  * Upload
@@ -219,14 +225,14 @@
     border-color: rgba(186, 43, 69, 0.8) rgba(186, 43, 69, 0.8) rgba(186, 43, 69, 0.8) transparent; }
 
   50% {
-    border-color: rgba(199, 85, 106, 0.8) rgba(199, 85, 106, 0.8) rgba(199, 85, 106, 0.8) transparent; } }
+    border-color: rgba(212, 68, 94, 0.8) rgba(212, 68, 94, 0.8) rgba(212, 68, 94, 0.8) transparent; } }
 
 @keyframes loader-color {
   0%, 100% {
     border-color: rgba(186, 43, 69, 0.8) rgba(186, 43, 69, 0.8) rgba(186, 43, 69, 0.8) transparent; }
 
   50% {
-    border-color: rgba(199, 85, 106, 0.8) rgba(199, 85, 106, 0.8) rgba(199, 85, 106, 0.8) transparent; } }
+    border-color: rgba(212, 68, 94, 0.8) rgba(212, 68, 94, 0.8) rgba(212, 68, 94, 0.8) transparent; } }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -573,10 +579,10 @@ td, th {
   background-color: #ba2b45; }
 
 .tink-text-brand-light {
-  color: #c7556a; }
+  color: #d4445e; }
 
 .tink-bg-brand-light {
-  background-color: #c7556a; }
+  background-color: #d4445e; }
 
 .tink-text-brown {
   color: #a1887f; }
@@ -1587,10 +1593,10 @@ a.text-primary:hover {
   color: #992339; }
 
 .text-secondary {
-  color: #c7556a; }
+  color: #d4445e; }
 
 a.text-secondary:hover {
-  color: #b73c53; }
+  color: #c22d48; }
 
 .text-success {
   color: #0b0; }
@@ -2481,16 +2487,26 @@ button, input[type="button"], .btn {
 
 button[type="submit"], input[type="submit"], .btn-primary {
   color: #fff;
+<<<<<<< HEAD
   background-color: #00b3dc;
   border-color: #00b3dc; }
+=======
+  background-color: #219dc8;
+  border-color: #219dc8; }
+>>>>>>> Added extra variables.
   button[type="submit"]:hover, button[type="submit"]:focus, button[type="submit"]:active, button[type="submit"].active, .open > button[type="submit"].dropdown-toggle, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active, input[type="submit"].active, .open > input[type="submit"].dropdown-toggle, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #009ec3; }
   button[type="submit"]:active, button[type="submit"].active, .open > button[type="submit"].dropdown-toggle, input[type="submit"]:active, input[type="submit"].active, .open > input[type="submit"].dropdown-toggle, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     background-image: none; }
   button[type="submit"].disabled, button[type="submit"].disabled:hover, button[type="submit"].disabled:focus, button[type="submit"].disabled:active, button[type="submit"].disabled.active, button[type="submit"][disabled], button[type="submit"][disabled]:hover, button[type="submit"][disabled]:focus, button[type="submit"][disabled]:active, button[type="submit"][disabled].active, fieldset[disabled] button[type="submit"], fieldset[disabled] button[type="submit"]:hover, fieldset[disabled] button[type="submit"]:focus, fieldset[disabled] button[type="submit"]:active, fieldset[disabled] button[type="submit"].active, input[type="submit"].disabled, input[type="submit"].disabled:hover, input[type="submit"].disabled:focus, input[type="submit"].disabled:active, input[type="submit"].disabled.active, input[type="submit"][disabled], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus, input[type="submit"][disabled]:active, input[type="submit"][disabled].active, fieldset[disabled] input[type="submit"], fieldset[disabled] input[type="submit"]:hover, fieldset[disabled] input[type="submit"]:focus, fieldset[disabled] input[type="submit"]:active, fieldset[disabled] input[type="submit"].active, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+<<<<<<< HEAD
     background-color: #00b3dc;
     border-color: #00b3dc; }
+=======
+    background-color: #219dc8;
+    border-color: #219dc8; }
+>>>>>>> Added extra variables.
 
 .btn-success {
   color: #fff;
@@ -4040,8 +4056,13 @@ html {
       text-decoration: none;
       width: 100%; }
       .nav-aside-section li a:hover, .nav-aside-section li a:active, .nav-aside-section li a:focus {
+<<<<<<< HEAD
         background-color: white;
         color: #c7556a; }
+=======
+        background-color: #dbf1f9;
+        color: #219dc8; }
+>>>>>>> Added extra variables.
         .nav-aside-section li a:hover .badge, .nav-aside-section li a:active .badge, .nav-aside-section li a:focus .badge {
           background-color: #fff;
           color: #c7556a; }
@@ -4060,8 +4081,13 @@ html {
         color: #525252;
         font-weight: normal; }
         .nav-aside-section li.active a + ul a:hover, .nav-aside-section li.active a + ul a:active, .nav-aside-section li.active a + ul a:focus {
+<<<<<<< HEAD
           background-color: white;
           color: #c7556a; }
+=======
+          background-color: #dbf1f9;
+          color: #219dc8; }
+>>>>>>> Added extra variables.
     .nav-aside-section > ul {
       /**
        * Menu second level
@@ -4383,14 +4409,22 @@ html {
         padding: 6px 12px;
         text-decoration: none; }
         .popover-list-buttons li a:hover {
+<<<<<<< HEAD
           background-color: white; }
+=======
+          background-color: #dbf1f9; }
+>>>>>>> Added extra variables.
   .popover-menu-list ul > hr {
     border-top-color: #eaeaea;
     margin: 0.35714rem  0; }
   .popover-menu-list ul li {
     padding: 0.35714rem ; }
     .popover-menu-list ul li:hover:not([disabled]) {
+<<<<<<< HEAD
       background-color: white;
+=======
+      background-color: #dbf1f9;
+>>>>>>> Added extra variables.
       cursor: pointer;
       transition: background-color linear 0.1s; }
     .popover-menu-list ul li[disabled] {
