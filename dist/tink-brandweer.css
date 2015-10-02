@@ -1447,7 +1447,7 @@ a {
   text-decoration: none;
   transition: all 0.1s linear; }
   a:hover, a:focus {
-    color: #3ca3d2;
+    color: #216e91;
     text-decoration: underline; }
   a:focus {
     outline: 0;
@@ -2906,7 +2906,7 @@ a.badge:hover, a.badge:focus {
       position: relative; }
       .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
         background: rgba(0, 0, 0, 0.05);
-        color: #3ca3d2;
+        color: #216e91;
         text-decoration: none; }
     .nav-tabs > li.active > a {
       background: transparent;
@@ -3564,7 +3564,7 @@ html.has-open-modal {
       color: #333;
       position: relative; }
       .pagination li a:hover, .pagination li a:active, .pagination li a:focus {
-        color: #3ca3d2;
+        color: #216e91;
         background-color: rgba(0, 0, 0, 0.05);
         z-index: 2; }
       .pagination li a:hover, .pagination li a:active {
@@ -3585,8 +3585,8 @@ html.has-open-modal {
       border-bottom-right-radius: 3px;
       border-top-right-radius: 3px; }
     .pagination li.active a {
-      background-color: #d70044;
-      border-color: #d70044;
+      background-color: #2b8dba;
+      border-color: #2b8dba;
       color: #fff;
       cursor: default;
       z-index: 3; }
@@ -4064,11 +4064,11 @@ html {
       text-decoration: none;
       width: 100%; }
       .nav-aside-section li a:hover, .nav-aside-section li a:active, .nav-aside-section li a:focus {
-        background-color: rgba(0, 0, 0, 0.05);
-        color: #d70044; }
+        background-color: #d9edf6;
+        color: #2b8dba; }
         .nav-aside-section li a:hover .badge, .nav-aside-section li a:active .badge, .nav-aside-section li a:focus .badge {
           background-color: #fff;
-          color: #d70044; }
+          color: #2b8dba; }
       .nav-aside-section li a:focus {
         box-shadow: none; }
       .nav-aside-section li a > * {
@@ -4078,14 +4078,14 @@ html {
         padding: 0.21429rem 0.71429rem 0rem 0rem ;
         vertical-align: top; }
     .nav-aside-section li.active a {
-      color: #d70044;
+      color: #2b8dba;
       font-weight: 700; }
       .nav-aside-section li.active a + ul a {
         color: #525252;
         font-weight: normal; }
         .nav-aside-section li.active a + ul a:hover, .nav-aside-section li.active a + ul a:active, .nav-aside-section li.active a + ul a:focus {
-          background-color: rgba(0, 0, 0, 0.05);
-          color: #d70044; }
+          background-color: #d9edf6;
+          color: #2b8dba; }
     .nav-aside-section > ul {
       /**
        * Menu second level
@@ -4126,10 +4126,10 @@ html {
         .nav-aside-section > ul ul li a {
           padding: 0.5rem 1.07143rem 0.5rem 2.14286rem ; }
         .nav-aside-section > ul ul li.active a:hover .badge, .nav-aside-section > ul ul li.active a:active .badge, .nav-aside-section > ul ul li.active a:focus .badge {
-          background: #d70044;
+          background: #2b8dba;
           color: #fff; }
         .nav-aside-section > ul ul li.active .badge {
-          background: #d70044;
+          background: #2b8dba;
           color: #fff; }
   .nav-aside .badge {
     background-color: #eaeaea;
@@ -4180,7 +4180,7 @@ html {
  * Back to top
  */
 .back-to-top {
-  background-color: rgba(215, 0, 68, 0.4);
+  background-color: rgba(43, 141, 186, 0.4);
   border: none;
   bottom: -3.14286rem ;
   color: #fff;
@@ -4197,7 +4197,7 @@ html {
     font-family: 'FontAwesome';
     font-weight: normal; }
   .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
-    background-color: rgba(215, 0, 68, 0.8);
+    background-color: rgba(43, 141, 186, 0.8);
     color: #fff; }
   .back-to-top.is-visible {
     bottom: 1.14286rem ;
@@ -4407,14 +4407,14 @@ html {
         padding: 6px 12px;
         text-decoration: none; }
         .popover-list-buttons li a:hover {
-          background-color: rgba(0, 0, 0, 0.05); }
+          background-color: #d9edf6; }
   .popover-menu-list ul > hr {
     border-top-color: #eaeaea;
     margin: 0.35714rem  0; }
   .popover-menu-list ul li {
     padding: 0.35714rem ; }
     .popover-menu-list ul li:hover:not([disabled]) {
-      background-color: rgba(0, 0, 0, 0.05);
+      background-color: #d9edf6;
       cursor: pointer;
       transition: background-color linear 0.1s; }
     .popover-menu-list ul li[disabled] {

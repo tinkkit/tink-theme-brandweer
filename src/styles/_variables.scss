@@ -18,22 +18,20 @@ $brand-light:                               #ff4662;
  * Navigation
  */
 $nav-top-bg-color:                          #333;
-// $nav-aside-link-active-background-color:    $primary;
-// $nav-aside-link-hover-color:                $primary;
-// $nav-aside-link-hover-background-color:     lighten($primary, 46%);
+$nav-aside-link-active-background-color:    $primary;
+$nav-aside-link-hover-color:                $primary;
+$nav-aside-link-hover-background-color:     lighten($primary, 46%);
 
-// $back-to-top-bgcolor:                       rgba($primary, .4);
-// $back-to-top-hover-bgcolor:                 rgba($primary, .8);
+$back-to-top-bgcolor:                       rgba($primary, .4);
+$back-to-top-hover-bgcolor:                 rgba($primary, .8);
 
 
 
 /**
  * Colors
  */
-// $brand-success:                              #0b0;
 
 $link-color:                                 $primary;
-$link-hover-color:                           lighten($link-color, 8%);
 
 
 /**
@@ -88,7 +86,7 @@ $table-interactive-options-dropzone-border:  $primary;
 /**
  * Pagination
  */
-// $pagination-link-active-bg:                  $primary;
+$pagination-link-active-bg:                  $primary;
 
 
 /**
@@ -96,7 +94,6 @@ $table-interactive-options-dropzone-border:  $primary;
  */
 $upload-hover-background-color:              lighten($primary, 50%);
 $upload-border-color:                        $primary;
-// $upload-bg-color-success:                    lighten($brand-success, 54%);
 
 
 /**
