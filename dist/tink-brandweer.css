@@ -3713,7 +3713,7 @@ html.has-open-modal {
     padding-right: 0.28571rem ;
     transition: background-color 0.1s linear; }
     .table-interactive-options .is-selectable.selected {
-      background-color: #ffd7e4; }
+      background-color: #d5ebf5; }
     .table-interactive-options .is-selectable label {
       display: block; }
       .table-interactive-options .is-selectable label span {
@@ -3733,7 +3733,7 @@ html.has-open-modal {
     position: relative; }
     .table-interactive-options .draggable-placeholder > div:before {
       background: #fff;
-      border: 1px dashed #d70044;
+      border: 1px dashed #2b8dba;
       border-radius: 3px;
       bottom: 0;
       content: "";

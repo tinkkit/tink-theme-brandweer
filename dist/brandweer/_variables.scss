@@ -2,7 +2,6 @@
  * Variables
  * ----------------------------------------------------------------
  */
-// currently based on tink-theme-stad except for logo and brand colors
 
 /**
  * Main
@@ -82,8 +81,8 @@ $hit-area-checked-bgcolor:                   $primary;
 /**
  * Interactive table
  */
-// $table-interactive-options-selected-bgcolor: lighten($primary, 45%);
-// $table-interactive-options-dropzone-border:  $primary;
+$table-interactive-options-selected-bgcolor: lighten($primary, 45%);
+$table-interactive-options-dropzone-border:  $primary;
 
 
 /**
