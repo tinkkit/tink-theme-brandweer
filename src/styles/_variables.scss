@@ -36,36 +36,36 @@ $brand-light:                            #ff4662;
  */
 // $brand-success:                              #0b0;
 
-// $link-color:                                 $primary;
+$link-color:                                 $primary;
 // $link-hover-color:                           lighten($link-color, 8%);
 
 
 /**
  * Code
  */
-// $code-color:                                 $primary;
-// $code-bg:                                    lighten($primary, 51%);
+$code-color:                                 $primary;
+$code-bg:                                    lighten($primary, 51%);
 
 
 /**
  * Focus
  */
 // $input-base-color:                           $primary;
-// $input-border-focus:                         $primary;
+$input-border-focus:                         $primary;
 
 
 /**
  * Buttons
  */
-// $btn-primary-color:                          #fff;
-// $btn-primary-bg:                             $primary;
-// $btn-primary-border:                         $primary;
+$btn-primary-color:                          #fff;
+$btn-primary-bg:                             $primary;
+$btn-primary-border:                         $primary;
 
 
 /**
  * Callouts
  */
-// $callout-color:                              $primary;
+$callout-color:                              $primary;
 
 
 /**
@@ -79,7 +79,7 @@ $brand-light:                            #ff4662;
 /**
  * Hit-area-box
  */
-// $hit-area-checked-bgcolor:                   $primary;
+$hit-area-checked-bgcolor:                   $primary;
 
 
 /**
@@ -106,10 +106,10 @@ $brand-light:                            #ff4662;
 /**
  * Badges
  */
-// $badge-primary-bg:                           $primary !default;
+$badge-primary-bg:                           $primary !default;
 
 
 /**
  * Labels
 //  */
-// $label-primary:                              $primary !default;
+$label-primary:                              $primary !default;
