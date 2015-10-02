@@ -1,6 +1,6 @@
 # Tink Brandweer theme
 
-v1.0.0
+v2.0.0
 
 ## What is this repository for?
 
