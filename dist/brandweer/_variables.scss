@@ -108,3 +108,12 @@ $badge-primary-bg:                           $primary !default;
  * Labels
 //  */
 $label-primary:                              $primary !default;
+
+
+/**
+ * Timeline
+ */
+$timeline-line-color:                        $primary;
+$timeline-label-bgcolor:                     $timeline-line-color;
+$timeline-date-color:                        $timeline-line-color;
+$timeline-date-border:                       $timeline-line-color;
