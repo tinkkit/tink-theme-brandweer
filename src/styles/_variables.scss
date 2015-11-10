@@ -61,9 +61,9 @@ $btn-primary-border:                         $primary;
 /**
  * Callouts
  */
-$callout-color:                              mix($primary, $gray-darker, 40%) !default;
-$callout-bgcolor:                            lighten($primary, 53%) !default;
-$callout-border:                             $primary !default;
+$callout-color:                              mix($primary, $gray-darker, 40%);
+$callout-bgcolor:                            lighten($primary, 53%);
+$callout-border:                             $primary;
 
 
 /**
