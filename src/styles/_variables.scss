@@ -13,8 +13,6 @@ $logo:                                      "brandweer-logo.svg";
 $brand:                                     #c20430; // old #d70044;
 $brand-light:                               #e33747; // old #ff4662;
 
-$gray-darker:                               #141414 !default;
-
 
 /**
  * Navigation
@@ -26,7 +24,6 @@ $nav-aside-link-hover-background-color:     lighten($primary, 46%);
 
 $back-to-top-bgcolor:                       rgba($primary, .4);
 $back-to-top-hover-bgcolor:                 rgba($primary, .8);
-
 
 
 /**
@@ -61,7 +58,7 @@ $btn-primary-border:                         $primary;
 /**
  * Callouts
  */
-$callout-color:                              mix($primary, $gray-darker, 40%);
+$callout-color:                              mix($primary, #141414, 40%);
 $callout-bgcolor:                            lighten($primary, 53%);
 $callout-border:                             $primary;
 
@@ -105,13 +102,13 @@ $upload-border-color:                        $primary;
 /**
  * Badges
  */
-$badge-primary-bg:                           $primary !default;
+$badge-primary-bg:                           $primary;
 
 
 /**
  * Labels
-//  */
-$label-primary:                              $primary !default;
+ */
+$label-primary:                              $primary;
 
 
 /**
