@@ -26,7 +26,6 @@ $back-to-top-bgcolor:                       rgba($primary, .4);
 $back-to-top-hover-bgcolor:                 rgba($primary, .8);
 
 
-
 /**
  * Colors
  */
@@ -59,7 +58,9 @@ $btn-primary-border:                         $primary;
 /**
  * Callouts
  */
-$callout-color:                              $primary;
+$callout-color:                              mix($primary, #141414, 40%);
+$callout-bgcolor:                            lighten($primary, 53%);
+$callout-border:                             $primary;
 
 
 /**
@@ -101,13 +102,13 @@ $upload-border-color:                        $primary;
 /**
  * Badges
  */
-$badge-primary-bg:                           $primary !default;
+$badge-primary-bg:                           $primary;
 
 
 /**
  * Labels
-//  */
-$label-primary:                              $primary !default;
+ */
+$label-primary:                              $primary;
 
 
 /**
