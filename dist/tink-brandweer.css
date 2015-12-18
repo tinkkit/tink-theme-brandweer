@@ -57,9 +57,6 @@
  * Labels
  */
 /**
- * Timeline
- */
-/**
  * Tabula rasa
  */
 /**
@@ -4016,7 +4013,7 @@ span.table-interactive.is-loading:after {
      * Timeline list label
      */ }
     .timeline-list:before {
-      background: #2b8dba;
+      background: #bbb;
       bottom: 0;
       content: '';
       left: 0;
