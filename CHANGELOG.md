@@ -16,6 +16,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [1.3.1] - 2015-12-18
+
+### Fixed
+- Fixed an issue with variables
+
+
+
 ## [1.3.0] - 2015-12-18
 
 ### Added
