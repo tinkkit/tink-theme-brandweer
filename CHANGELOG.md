@@ -16,6 +16,18 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [1.4.0] - 2016-01-20
+
+### Added
+- Added vertical variant of button groups
+- Added inverted variant of loaders
+
+### Fixed
+- Fixed a specificity problem with buttons
+- Fixed small display bug in pagination
+
+
+
 ## [1.3.1] - 2015-12-18
 
 ### Fixed
