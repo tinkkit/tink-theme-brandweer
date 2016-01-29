@@ -10,8 +10,13 @@ $primary:                                   #2b8dba; // complimentary primary
 
 $logo:                                      "brandweer-logo.svg";
 
-$brand:                                     #c20430; // old #d70044;
-$brand-light:                               #e33747; // old #ff4662;
+$brand:                                     #ad0235; // old #d70044;
+$brand-light:                               #bd355d; // old #ff4662;
+
+$brand-success:                             #007546 !default;
+$brand-info:                                #5599db !default;
+$brand-warning:                             #d37016 !default;
+$brand-danger:                              $brand !default;
 
 
 /**
