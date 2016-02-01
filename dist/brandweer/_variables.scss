@@ -13,19 +13,12 @@ $logo:                                      "brandweer-logo.svg";
 $brand:                                     #ad0235; // old #d70044;
 $brand-light:                               #bd355d; // old #ff4662;
 
-$brand-success:                             #007546 !default;
-$brand-info:                                #11159a !default;
-$brand-warning:                             #d37016 !default;
-$brand-danger:                              $brand !default;
-
 
 /**
  * Navigation
  */
 $nav-top-bg-color:                          #333;
-$nav-aside-link-active-background-color:    $primary;
 $nav-aside-link-hover-color:                $primary;
-$nav-aside-link-hover-background-color:     lighten($primary, 46%);
 
 $back-to-top-bgcolor:                       rgba($primary, .4);
 $back-to-top-hover-bgcolor:                 rgba($primary, .8);
@@ -34,6 +27,10 @@ $back-to-top-hover-bgcolor:                 rgba($primary, .8);
 /**
  * Colors
  */
+$brand-success:                             #007546 !default;
+$brand-info:                                #11159a !default;
+$brand-warning:                             #d37016 !default;
+$brand-danger:                              $brand !default;
 
 $link-color:                                 $primary;
 
@@ -104,7 +101,7 @@ $pagination-link-active-bg:                  $primary;
 /**
  * Upload
  */
-$upload-hover-background-color:              lighten($primary, 38%);
+$upload-hover-background-color:              lighten($primary, 35%);
 $upload-border-color:                        $primary;
 
 

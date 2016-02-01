@@ -5080,7 +5080,7 @@ html {
       text-decoration: none;
       width: 100%; }
       .nav-aside-section li a:hover, .nav-aside-section li a:active, .nav-aside-section li a:focus {
-        background-color: white;
+        background-color: rgba(0, 0, 0, 0.05);
         color: #5599db; }
         .nav-aside-section li a:hover .badge, .nav-aside-section li a:active .badge, .nav-aside-section li a:focus .badge {
           background-color: #fff;
@@ -5100,7 +5100,7 @@ html {
         color: #525252;
         font-weight: normal; }
         .nav-aside-section li.active a + ul a:hover, .nav-aside-section li.active a + ul a:active, .nav-aside-section li.active a + ul a:focus {
-          background-color: white;
+          background-color: rgba(0, 0, 0, 0.05);
           color: #5599db; }
     .nav-aside-section > ul {
       /**
@@ -5429,14 +5429,14 @@ html {
         padding: 6px 12px;
         text-decoration: none; }
         .popover-list-buttons li a:hover {
-          background-color: white; }
+          background-color: rgba(0, 0, 0, 0.05); }
   .popover-menu-list ul > hr {
     border-top-color: #eaeaea;
     margin: 0.3571428571rem  0; }
   .popover-menu-list ul li {
     padding: 0.3571428571rem ; }
     .popover-menu-list ul li:hover:not([disabled]) {
-      background-color: white;
+      background-color: rgba(0, 0, 0, 0.05);
       cursor: pointer;
       transition: background-color linear 0.1s; }
     .popover-menu-list ul li[disabled] {
@@ -5674,7 +5674,7 @@ html {
   .upload:focus {
     outline: none; }
     .upload:focus .upload-zone {
-      background-color: #f5f9fd; }
+      background-color: #e8f1fa; }
   .upload.disabled, .upload[disabled],
   fieldset[disabled] .upload {
     box-shadow: none;
@@ -5686,7 +5686,7 @@ html {
     position: relative;
     transition: background 0.1s linear, border 0.1s linear, color 0.1s linear; }
     .upload-zone:hover, .upload-zone:focus {
-      background-color: #f5f9fd; }
+      background-color: #e8f1fa; }
   .upload-file-input {
     bottom: 0;
     background: rgba(255, 255, 0, 0.2);
@@ -5781,7 +5781,7 @@ html {
       transition: width 0.1s linear; }
 
 .dragenter {
-  background-color: #f5f9fd; }
+  background-color: #e8f1fa; }
 
 /**
  * Utilities

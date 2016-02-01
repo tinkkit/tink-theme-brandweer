@@ -16,10 +16,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
-## [1.5.0] - 2016-01-28
+## [1.5.0] - 2016-02-01
 
 ### Added
-- Changed the theme to match the new styleguide
+- Changed the theme to match the new Brandweer styleguide
 
 
 
