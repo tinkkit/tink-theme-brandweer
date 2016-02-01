@@ -42,7 +42,7 @@ $link-color:                                 $primary;
  * Code
  */
 $code-color:                                 $primary;
-$code-bg:                                    lighten($primary, 51%);
+$code-bg:                                    lighten($primary, 38%);
 
 
 /**
@@ -64,8 +64,12 @@ $btn-primary-border:                         $primary;
  * Callouts
  */
 $callout-color:                              mix($primary, #141414, 40%);
-$callout-bgcolor:                            lighten($primary, 53%);
+$callout-bgcolor:                            lighten($primary, 38%);
 $callout-border:                             $primary;
+
+$callout-bgcolor-success:                    lighten($brand-success, 74%);
+$callout-bgcolor-warning:                    lighten($brand-warning, 50%);
+$callout-bgcolor-danger:                     lighten($brand-danger, 62%);
 
 
 /**
@@ -100,7 +104,7 @@ $pagination-link-active-bg:                  $primary;
 /**
  * Upload
  */
-$upload-hover-background-color:              lighten($primary, 50%);
+$upload-hover-background-color:              lighten($primary, 38%);
 $upload-border-color:                        $primary;
 
 

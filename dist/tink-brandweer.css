@@ -1705,7 +1705,7 @@ samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
 
 code {
-  background-color: white;
+  background-color: #f5f9fd;
   border-radius: 0.2142857143rem ;
   color: #5599db;
   font-size: 90%;
@@ -1724,8 +1724,8 @@ kbd {
     padding: 0; }
 
 pre {
-  background-color: white;
-  border: 1px solid #ffe0e0;
+  background-color: #f5f9fd;
+  border: 1px solid #dceaf8;
   border-radius: 0.2142857143rem ;
   color: #5599db;
   display: block;
@@ -3889,7 +3889,7 @@ input[type="submit"] span.table-interactive.is-loading:after,
  * --------------------------------------------------
  */
 .callout, .callout-success, .callout-warning, .callout-danger {
-  background: white;
+  background: #f5f9fd;
   border: 1px solid #5599db;
   border-left: 5px solid #5599db;
   border-radius: 0rem ;
@@ -3909,7 +3909,7 @@ input[type="submit"] span.table-interactive.is-loading:after,
     margin-bottom: 0; }
 
 .callout-success {
-  background-color: #b2ffe0;
+  background-color: #effff9;
   border-color: #007546;
   color: #0c3b28; }
   .callout-success a {
@@ -3920,7 +3920,7 @@ input[type="submit"] span.table-interactive.is-loading:after,
     border-top-color: #007546; }
 
 .callout-warning {
-  background-color: #fbecdd;
+  background-color: #fdf4eb;
   border-color: #d37016;
   color: #603915; }
   .callout-warning a {
@@ -3931,7 +3931,7 @@ input[type="submit"] span.table-interactive.is-loading:after,
     border-top-color: #d37016; }
 
 .callout-danger {
-  background-color: #febace;
+  background-color: #ffecf2;
   border-color: #ad0235;
   color: #510d21; }
   .callout-danger a {
@@ -5674,7 +5674,7 @@ html {
   .upload:focus {
     outline: none; }
     .upload:focus .upload-zone {
-      background-color: white; }
+      background-color: #f5f9fd; }
   .upload.disabled, .upload[disabled],
   fieldset[disabled] .upload {
     box-shadow: none;
@@ -5686,7 +5686,7 @@ html {
     position: relative;
     transition: background 0.1s linear, border 0.1s linear, color 0.1s linear; }
     .upload-zone:hover, .upload-zone:focus {
-      background-color: white; }
+      background-color: #f5f9fd; }
   .upload-file-input {
     bottom: 0;
     background: rgba(255, 255, 0, 0.2);
@@ -5781,7 +5781,7 @@ html {
       transition: width 0.1s linear; }
 
 .dragenter {
-  background-color: white; }
+  background-color: #f5f9fd; }
 
 /**
  * Utilities
